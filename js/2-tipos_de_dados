@@ -1,0 +1,31 @@
+// let n1 =10;
+// let n2; 
+
+
+let n1 =  10, 
+    n2 =  15;
+    n3 =  25
+
+let resultado = n1 + n2 + n3
+
+console.log(resultado);
+
+// Soma
+
+let numero1 = '100';
+    numero2 =  500 ;
+
+let soma = numero1 + numero2;
+
+console.log(soma);
+
+// Subtração
+
+let numb1 = 'palavra';
+    numb2 =  500;
+
+let sub = numb1 - numb2;
+
+console.log(sub);
+
+
