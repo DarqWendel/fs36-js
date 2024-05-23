@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula JavaSript</title>
+    <title>Aula JavaScript</title>
 
 
     <!-- Import Css -->
@@ -27,17 +27,17 @@
         <h2>Calcular dois números</h2>
 
         <form>
-            <label for="n1" class="form-label">N1:</label>
-            <input type="text" class="form-control" id="n1" required>
+            <label for="n1" class="form-label">Digite o primeiro Número: </label>
+            <input type="number" class="form-control" id="n1" required>
 
 
-            <label for="n2" class="form-label">N2:</label>
-            <input type="text" class="form-control" id="n2" required>
+            <label for="n2" class="form-label">Digite o segundo Número: </label>
+            <input type="number" class="form-control" id="n2" required>
 
             <br>
-            <button class="btn btn-primary" type="submit">Somar</button>
+            <button class="btn btn-primary" type="button" onclick="soma()">Somar</button>
             <button class="btn btn-primary" type="reset">Limpar</button>
-            
+
 
             <div class="resultado"></div>
         </form>
@@ -57,6 +57,8 @@
 
     <!-- 2. Importando o arquivo .js -->
     <script src="/js/script.js"></script>
+
+    <!-- <script src="/js/script2.js"></script> -->
 
     <!-- Importando JS Boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
