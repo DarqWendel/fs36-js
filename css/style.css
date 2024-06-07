@@ -39,7 +39,11 @@
     text-align: center;
 }
 
-
+.limpe {
+    border-style: initial;
+    background-color: blue;
+    width: 100px;
+}
 
 
 
