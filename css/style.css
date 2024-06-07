@@ -8,7 +8,18 @@
 }
 
 .container {
-    text-align: center; /* Centraliza o texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ou outra altura desejada */
+}
+
+.form-control {
+    width: 200px; /* largura desejada */
+    height: 30px; /* altura desejada */
+    font-size: 14px; /* tamanho da fonte desejado */
+    margin-bottom: 10px; /* espaço entre os inputs */
 }
 
 .botao {
@@ -21,6 +32,7 @@
 #n1 {
     border-color: blue;
     text-align: center;
+    
 }
 #n2 {
     border-color: blue;
